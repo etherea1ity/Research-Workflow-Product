@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScopeForge</title>
+    <meta
+      name="description"
+      content="ScopeForge is a workflow-first research cockpit for turning fuzzy product ideas into evidence-backed MVP artifacts."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg" />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="ambient ambient-1"></div>
+      <div class="ambient ambient-2"></div>
+      <header class="topbar">
+        <a class="brand" href="#hero">
+          <span class="brand-mark">SF</span>
+          <span>
+            <strong>ScopeForge</strong>
+            <small>Research workflow cockpit</small>
+          </span>
+        </a>
+        <nav class="topnav">
+          <a href="#thesis">Thesis</a>
+          <a href="#architecture">Architecture</a>
+          <a href="#workspace">Workspace</a>
+        </nav>
+        <a class="button button-ghost" href="/docs">API Docs</a>
+      </header>
+
+      <main>
+        <section class="hero section page-section" id="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Workflow-first product research</p>
+            <h1>
+              Turn a rough product idea into
+              <span>evidence-backed decisions</span>
+              and execution-ready artifacts.
+            </h1>
+            <p class="hero-text">
+              ScopeForge is built for product discovery that needs more than chat:
+              scope clarification, evidence collection, synthesis, and deliverables
+              your team can actually act on.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#workspace">Open workspace</a>
+              <a class="button button-secondary" href="#architecture">See the system</a>
+            </div>
+            <div class="hero-strip">
+              <div>
+                <strong>6 stages</strong>
+                <span>Visible workflow, not hidden prompting</span>
+              </div>
+              <div>
+                <strong>4 artifacts</strong>
+                <span>Research brief, matrix, MVP spec, issue bundle</span>
+              </div>
+              <div>
+                <strong>5 memory layers</strong>
+                <span>Context isolation as a product feature</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="panel-card command-card">
+              <div class="panel-head">
+                <span class="panel-kicker">Research cockpit</span>
+                <span class="panel-status">Live API-backed</span>
+              </div>
+              <div class="prompt-preview">
+                <p>Build a product research assistant for indie makers validating ideas.</p>
+                <ul>
+                  <li>Find competitors</li>
+                  <li>Shape MVP</li>
+                  <li>Preserve evidence traceability</li>
+                </ul>
+              </div>
+              <div class="mini-timeline">
+                <span class="stage on">Intake</span>
+                <span class="stage on">Clarification</span>
+                <span class="stage pulse">ResearchCollectors</span>
+                <span class="stage">Synthesis</span>
+                <span class="stage">ArtifactGenerator</span>
+              </div>
+              <div class="mini-metrics">
+                <div>
+                  <small>Coverage</small>
+                  <strong>0.88</strong>
+                </div>
+                <div>
+                  <small>Evidence</small>
+                  <strong>12 items</strong>
+                </div>
+                <div>
+                  <small>Artifacts</small>
+                  <strong>4 outputs</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section thesis page-section" id="thesis">
+          <div class="section-head">
+            <p class="eyebrow">Why this product exists</p>
+            <h2>Not a chat wrapper. A research operating layer.</h2>
+          </div>
+          <div class="grid grid-3">
+            <article class="feature-card">
+              <p class="feature-index">01</p>
+              <h3>Workflow over vibes</h3>
+              <p>
+                Direct chat is fast, but complex product work needs stages, evidence,
+                and explicit handoffs into the next action.
+              </p>
+            </article>
+            <article class="feature-card">
+              <p class="feature-index">02</p>
+              <h3>Context isolation</h3>
+              <p>
+                Brainstorming should not contaminate evidence. Temporary reasoning
+                should not become long-term memory by accident.
+              </p>
+            </article>
+            <article class="feature-card">
+              <p class="feature-index">03</p>
+              <h3>Artifacts, not just answers</h3>
+              <p>
+                The output is designed for action: research briefs, competitor
+                matrices, MVP specs, and issue bundles.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section page-section" id="architecture">
+          <div class="section-head split">
+            <div>
+              <p class="eyebrow">Technical edge</p>
+              <h2>A product architecture users can actually feel.</h2>
+            </div>
+            <p class="section-copy">
+              The best commercial AI products make invisible system behavior visible.
+              ScopeForge exposes its workflow, traces, evidence, and memory boundaries
+              so users understand what the system is doing and why.
+            </p>
+          </div>
+
+          <div class="architecture-grid">
+            <article class="memory-stack panel-card">
+              <div class="panel-head">
+                <span class="panel-kicker">Context isolation</span>
+                <span class="panel-status">Core differentiator</span>
+              </div>
+              <div class="layer layer-a">
+                <strong>Global User Profile</strong>
+                <span>Stable preferences and working style</span>
+              </div>
+              <div class="layer layer-b">
+                <strong>Project Memory</strong>
+                <span>Shared facts, positioning, vocabulary</span>
+              </div>
+              <div class="layer layer-c">
+                <strong>Task Session State</strong>
+                <span>Current goal, scope, active synthesis</span>
+              </div>
+              <div class="layer layer-d">
+                <strong>Node Scratchpad</strong>
+                <span>Private intermediate reasoning by default</span>
+              </div>
+              <div class="layer layer-e">
+                <strong>Immutable Evidence Store</strong>
+                <span>Captured facts, sources, excerpts, structured inputs</span>
+              </div>
+            </article>
+
+            <article class="workflow-board panel-card">
+              <div class="panel-head">
+                <span class="panel-kicker">Workflow shape</span>
+                <span class="panel-status">Current MVP</span>
+              </div>
+              <div class="workflow-list">
+                <div class="workflow-step"><strong>01</strong><span>Intake</span></div>
+                <div class="workflow-step"><strong>02</strong><span>Clarification</span></div>
+                <div class="workflow-step"><strong>03</strong><span>OptionalBrainstorm</span></div>
+                <div class="workflow-step"><strong>04</strong><span>ResearchCollectors</span></div>
+                <div class="workflow-step"><strong>05</strong><span>Synthesis</span></div>
+                <div class="workflow-step"><strong>06</strong><span>ArtifactGenerator</span></div>
+              </div>
+              <div class="workflow-note">
+                Structured runs make baselines, ablation tests, and regression analysis
+                possible instead of hypothetical.
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section benchmark page-section">
+          <div class="section-head">
+            <p class="eyebrow">Commercial patterns we benchmarked</p>
+            <h2>Built with the design language of modern AI products.</h2>
+          </div>
+          <div class="grid grid-4 benchmark-grid">
+            <article class="benchmark-card">
+              <h3>Cursor</h3>
+              <p>Interactive hero, visible agent work, premium proof framing.</p>
+            </article>
+            <article class="benchmark-card">
+              <h3>v0 / Bolt</h3>
+              <p>Prompt-first entry, templates, production-oriented builder posture.</p>
+            </article>
+            <article class="benchmark-card">
+              <h3>Dia</h3>
+              <p>Use-case storytelling with the browser as an ambient workspace.</p>
+            </article>
+            <article class="benchmark-card">
+              <h3>Genspark / Manus</h3>
+              <p>Product-surface language, integrations, and systems-level confidence.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section usecases page-section">
+          <div class="section-head">
+            <p class="eyebrow">Use cases</p>
+            <h2>Designed for real product work, not novelty prompts.</h2>
+          </div>
+          <div class="grid grid-3">
+            <article class="usecase-card">
+              <h3>Idea → Research → MVP</h3>
+              <p>
+                Clarify the opportunity, map competitors, pressure-test the angle,
+                and converge on a realistic first release.
+              </p>
+            </article>
+            <article class="usecase-card">
+              <h3>Repo Due Diligence</h3>
+              <p>
+                Examine a repo or framework, gather evidence from docs and code, and
+                turn findings into an informed recommendation.
+              </p>
+            </article>
+            <article class="usecase-card">
+              <h3>Execution Planning</h3>
+              <p>
+                Convert research into artifacts your team can use immediately:
+                specs, matrices, issue bundles, and next-step plans.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section workspace page-section" id="workspace">
+          <div class="section-head split">
+            <div>
+              <p class="eyebrow">Workspace</p>
+              <h2>Run the actual workflow.</h2>
+            </div>
+            <div class="workspace-head-actions">
+              <p class="section-copy">
+                This surface talks to the existing FastAPI backend. Submit a run, inspect
+                stages, open artifacts, and see how evidence and metrics come back.
+              </p>
+              <a class="button button-ghost" href="#hero">Back to home</a>
+            </div>
+          </div>
+
+          <div class="workspace-shell">
+            <aside class="composer panel-card">
+              <div class="panel-head">
+                <span class="panel-kicker">Run composer</span>
+                <span class="panel-status">POST /runs</span>
+              </div>
+
+              <div class="preset-rail" id="preset-rail"></div>
+
+              <form id="run-form" class="composer-form">
+                <label class="field">
+                  <span>Idea</span>
+                  <textarea
+                    id="idea-input"
+                    rows="5"
+                    placeholder="Describe the product idea, diligence request, or research task."
+                  ></textarea>
+                </label>
+
+                <div class="tag-section">
+                  <div class="tag-head">
+                    <span>Goals</span>
+                    <div class="tag-adder">
+                      <input id="goal-input" type="text" placeholder="Add a goal" />
+                      <button class="button button-tiny" type="button" data-add-tag="goals">Add</button>
+                    </div>
+                  </div>
+                  <div class="tag-list" id="goal-tags"></div>
+                </div>
+
+                <div class="tag-section">
+                  <div class="tag-head">
+                    <span>Constraints</span>
+                    <div class="tag-adder">
+                      <input id="constraint-input" type="text" placeholder="Add a constraint" />
+                      <button class="button button-tiny" type="button" data-add-tag="constraints">Add</button>
+                    </div>
+                  </div>
+                  <div class="tag-list" id="constraint-tags"></div>
+                </div>
+
+                <div class="source-section">
+                  <div class="tag-head">
+                    <span>Optional sources</span>
+                    <button class="button button-tiny" id="add-source" type="button">Add source</button>
+                  </div>
+                  <div class="source-list" id="source-list"></div>
+                </div>
+
+                <div class="artifact-section">
+                  <span>Artifacts</span>
+                  <div class="artifact-checks">
+                    <label><input type="checkbox" value="research_brief" checked />Research brief</label>
+                    <label><input type="checkbox" value="competitor_matrix" checked />Competitor matrix</label>
+                    <label><input type="checkbox" value="mvp_spec" checked />MVP spec</label>
+                    <label><input type="checkbox" value="issue_bundle" checked />Issue bundle</label>
+                  </div>
+                </div>
+
+                <div class="composer-actions">
+                  <button class="button button-primary" type="submit" id="submit-run">Run ScopeForge</button>
+                  <button class="button button-secondary" type="button" id="load-sample">Load sample</button>
+                </div>
+              </form>
+
+              <div class="lookup-box">
+                <label class="field inline">
+                  <span>Lookup run</span>
+                  <div class="lookup-row">
+                    <input id="run-id-input" type="text" placeholder="Paste a run_id" />
+                    <button class="button button-ghost" id="load-run" type="button">Fetch</button>
+                  </div>
+                </label>
+              </div>
+            </aside>
+
+            <section class="results panel-card">
+              <div class="panel-head">
+                <span class="panel-kicker">Run output</span>
+                <span class="panel-status" id="run-status">Idle</span>
+              </div>
+
+              <div class="notice" id="notice">
+                Use a preset or write your own request. The workspace will render the
+                actual run response from the backend.
+              </div>
+
+              <article class="result-card live-log-card">
+                <div class="result-head">
+                  <h3>Deep progress</h3>
+                  <span id="live-log-status">Waiting</span>
+                </div>
+                <div class="live-log" id="live-log"></div>
+              </article>
+
+              <div class="results-body hidden" id="results-body">
+                <div class="results-overview">
+                  <div class="run-meta">
+                    <div>
+                      <small>Run ID</small>
+                      <strong id="run-id-display">-</strong>
+                    </div>
+                    <div>
+                      <small>Current stage</small>
+                      <strong id="current-stage-display">-</strong>
+                    </div>
+                    <div>
+                      <small>Status</small>
+                      <strong id="status-display">-</strong>
+                    </div>
+                  </div>
+                  <div class="metric-grid" id="metric-grid"></div>
+                </div>
+
+                <div class="timeline-strip" id="timeline-strip"></div>
+
+                <div class="results-grid">
+                  <article class="result-card">
+                    <div class="result-head">
+                      <h3>Artifacts</h3>
+                      <span id="artifact-count">0 outputs</span>
+                    </div>
+                    <div class="artifact-tabs" id="artifact-tabs"></div>
+                    <div class="artifact-content" id="artifact-content"></div>
+                  </article>
+
+                  <article class="result-card">
+                    <div class="result-head">
+                      <h3>Evidence</h3>
+                      <span id="evidence-count">0 items</span>
+                    </div>
+                    <div class="evidence-list" id="evidence-list"></div>
+                  </article>
+                </div>
+
+                <div class="results-grid results-grid-lower">
+                  <article class="result-card">
+                    <div class="result-head">
+                      <h3>Task state</h3>
+                      <span>Structured output</span>
+                    </div>
+                    <div class="state-list" id="task-state"></div>
+                  </article>
+
+                  <article class="result-card">
+                    <div class="result-head">
+                      <h3>Trace</h3>
+                      <span id="trace-count">0 stages</span>
+                    </div>
+                    <div class="trace-list" id="trace-list"></div>
+                  </article>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/static/app.js" defer></script>
+  </body>
+</html>
